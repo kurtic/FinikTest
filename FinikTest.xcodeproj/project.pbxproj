@@ -10,6 +10,19 @@
 		587437652AB20ED400802746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874375C2AB20ED400802746 /* ViewController.swift */; };
 		587437662AB20ED400802746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5874375D2AB20ED400802746 /* Assets.xcassets */; };
 		587437692AB20ED400802746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587437622AB20ED400802746 /* AppDelegate.swift */; };
+		587AEB962AB21E71008A392B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEB952AB21E71008A392B /* AppCoordinator.swift */; };
+		587AEB992AB22043008A392B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEB982AB22043008A392B /* Coordinator.swift */; };
+		587AEB9C2AB220A7008A392B /* GistsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEB9B2AB220A7008A392B /* GistsService.swift */; };
+		587AEB9E2AB22157008A392B /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEB9D2AB22157008A392B /* Factory.swift */; };
+		587AEBA12AB221B9008A392B /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBA02AB221B9008A392B /* MainFactory.swift */; };
+		587AEBA32AB221EB008A392B /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBA22AB221EB008A392B /* BaseFactory.swift */; };
+		587AEBA52AB22224008A392B /* Makeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBA42AB22224008A392B /* Makeable.swift */; };
+		587AEBA72AB37DEF008A392B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBA62AB37DEF008A392B /* MainVC.swift */; };
+		587AEBA92AB37E11008A392B /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBA82AB37E11008A392B /* MainVM.swift */; };
+		587AEBAB2AB37E4D008A392B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587AEBAA2AB37E4D008A392B /* Main.storyboard */; };
+		587AEBAF2AB39FC0008A392B /* GistsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBAE2AB39FC0008A392B /* GistsListVC.swift */; };
+		587AEBB12AB3A001008A392B /* GistsListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AEBB02AB3A001008A392B /* GistsListVM.swift */; };
+		587AEBB32AB3A0B1008A392B /* GistsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587AEBB22AB3A0B1008A392B /* GistsList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +31,19 @@
 		5874375D2AB20ED400802746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587437622AB20ED400802746 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587437632AB20ED400802746 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587AEB952AB21E71008A392B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		587AEB982AB22043008A392B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		587AEB9B2AB220A7008A392B /* GistsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsService.swift; sourceTree = "<group>"; };
+		587AEB9D2AB22157008A392B /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		587AEBA02AB221B9008A392B /* MainFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
+		587AEBA22AB221EB008A392B /* BaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		587AEBA42AB22224008A392B /* Makeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makeable.swift; sourceTree = "<group>"; };
+		587AEBA62AB37DEF008A392B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		587AEBA82AB37E11008A392B /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		587AEBAA2AB37E4D008A392B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		587AEBAE2AB39FC0008A392B /* GistsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsListVC.swift; sourceTree = "<group>"; };
+		587AEBB02AB3A001008A392B /* GistsListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsListVM.swift; sourceTree = "<group>"; };
+		587AEBB22AB3A0B1008A392B /* GistsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GistsList.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				587437622AB20ED400802746 /* AppDelegate.swift */,
+				587AEB952AB21E71008A392B /* AppCoordinator.swift */,
+				587AEBAC2AB39F77008A392B /* Modules */,
+				587AEB9A2AB22073008A392B /* Services */,
 				5874376C2AB20EE400802746 /* Resources */,
+				587AEB972AB22026008A392B /* Base */,
 				5874375C2AB20ED400802746 /* ViewController.swift */,
 				587437632AB20ED400802746 /* Info.plist */,
 			);
@@ -64,6 +94,55 @@
 				5874375D2AB20ED400802746 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		587AEB972AB22026008A392B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				587AEB982AB22043008A392B /* Coordinator.swift */,
+				587AEB9D2AB22157008A392B /* Factory.swift */,
+				587AEBA22AB221EB008A392B /* BaseFactory.swift */,
+				587AEBA42AB22224008A392B /* Makeable.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		587AEB9A2AB22073008A392B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				587AEB9B2AB220A7008A392B /* GistsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		587AEB9F2AB22191008A392B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				587AEBA62AB37DEF008A392B /* MainVC.swift */,
+				587AEBA82AB37E11008A392B /* MainVM.swift */,
+				587AEBAA2AB37E4D008A392B /* Main.storyboard */,
+				587AEBA02AB221B9008A392B /* MainFactory.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		587AEBAC2AB39F77008A392B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				587AEBAD2AB39F94008A392B /* GistsList */,
+				587AEB9F2AB22191008A392B /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		587AEBAD2AB39F94008A392B /* GistsList */ = {
+			isa = PBXGroup;
+			children = (
+				587AEBAE2AB39FC0008A392B /* GistsListVC.swift */,
+				587AEBB02AB3A001008A392B /* GistsListVM.swift */,
+				587AEBB22AB3A0B1008A392B /* GistsList.storyboard */,
+			);
+			path = GistsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				587437662AB20ED400802746 /* Assets.xcassets in Resources */,
+				587AEBB32AB3A0B1008A392B /* GistsList.storyboard in Resources */,
+				587AEBAB2AB37E4D008A392B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587AEB992AB22043008A392B /* Coordinator.swift in Sources */,
+				587AEBA72AB37DEF008A392B /* MainVC.swift in Sources */,
+				587AEB962AB21E71008A392B /* AppCoordinator.swift in Sources */,
+				587AEBA12AB221B9008A392B /* MainFactory.swift in Sources */,
+				587AEBA52AB22224008A392B /* Makeable.swift in Sources */,
+				587AEB9E2AB22157008A392B /* Factory.swift in Sources */,
 				587437692AB20ED400802746 /* AppDelegate.swift in Sources */,
+				587AEBB12AB3A001008A392B /* GistsListVM.swift in Sources */,
+				587AEBAF2AB39FC0008A392B /* GistsListVC.swift in Sources */,
+				587AEBA92AB37E11008A392B /* MainVM.swift in Sources */,
 				587437652AB20ED400802746 /* ViewController.swift in Sources */,
+				587AEB9C2AB220A7008A392B /* GistsService.swift in Sources */,
+				587AEBA32AB221EB008A392B /* BaseFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
